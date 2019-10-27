@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <title>Document</title>
+<link href="style.css" rel="stylesheet"></head>
+<body>
+    <header class="main-header">
+        <a class="main-header__menu-toggle"><img src="img/menu.svg" alt="menu" width="18" height="12"></a>
+        <span>CodeJam - Pallete</span>
+    </header>
+    <main class="main-content">
+        <section class="tools-container">
+            <div class="tools-container__tools">
+                <ul class="tools-container__items">
+                    <li class="tools-container__item"><img src="img/paint.svg" alt="paint"> Paint bucket</li>
+                    <li class="tools-container__item"><img src="img/color.svg" alt="color"> Choose color</li>
+                    <li class="tools-container__item"><img src="img/move.svg" alt="move"> Move</li>
+                    <li class="tools-container__item"><img src="img/transform.svg" alt="transform"> Transform</li>
+                </ul>
+            </div>
+            <div class="tools-container__colors">
+                <ul class="tools-container__items">
+                    <li class="tools-container__item"><img src="img/ellipse-gray.svg" alt="ellipse"> Current color</li>
+                    <li class="tools-container__item"><img src="img/ellipse-green.svg" alt="ellipse"> Prev color</li>
+                    <li class="tools-container__item"><img src="img/ellipse-red.svg" alt="ellipse"> red</li>
+                    <li class="tools-container__item"><img src="img/ellipse-blue.svg" alt="ellipse"> blue</li>
+                </ul>
+            </div>
+        </section>
+        <section class="drawing-container">
+            <canvas id="canvas" width="512" height="512"></canvas>
+        </section>
+        <section class="switch-container">
+            <div class="switch-panel">
+                <ul class="switch-panel__items">
+                    <li class="switch-panel__item">4x4</li>
+                    <li class="switch-panel__item">32x32</li>
+                    <li class="switch-panel__item">Picture</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+<script type="text/javascript" src="main.js"></script></body>
+</html>

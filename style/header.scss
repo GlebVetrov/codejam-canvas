@@ -1,0 +1,11 @@
+.main-header {
+  height: 50px;
+  padding: 15px;
+  background-color: $bgwhite;
+  box-shadow: $shadow;
+  box-sizing: border-box;
+
+  &__menu-toggle {
+    display: inline-block;
+  }
+}
